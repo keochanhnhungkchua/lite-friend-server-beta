@@ -1,0 +1,1 @@
+# lite-friend-server-beta
