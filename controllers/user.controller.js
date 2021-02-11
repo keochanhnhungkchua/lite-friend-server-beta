@@ -15,10 +15,12 @@ module.exports.addFriend = async (req, res) => {
   const token = req.header("Authorization").slice(7);
   const userId = jwt.decode(token, { complete: true }).payload._id;
   const friendId = req.params.friendId;
-  const user = await User.findById(userId)
+  const user = await User.findById(userId).select(
+    "-password -createdAt -wrongLoginCount -__v"
+  );
   user.friends.push(friendId);
   await user.save();
-  return res.json({ success: true });
+  return res.json(user);
 };
 
 
