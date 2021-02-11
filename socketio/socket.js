@@ -2,11 +2,11 @@ var Room = require("../models/room.model");
 var Chat = require("../models/chat.model");
 var User = require("../models/user.model");
 var jwt = require("jsonwebtoken");
-
+const cors = require("cors");
 var userOnline = [];
 
 const sockets = (server) => {
-  const io = require("socket.io")(server);
+  const io = require("socket.io")(server, { cors: { origin: '*' } });
   io.on("connection", (socket) => {
     console.log("have a clien connection : " + socket.id);
     const { token } = socket.request._query;
