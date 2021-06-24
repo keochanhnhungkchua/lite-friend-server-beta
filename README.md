@@ -16,6 +16,6 @@
  2. [client](https://github.com/ngoba/lite-friend-client-beta)
  3. [server](https://github.com/ngoba/lite-friend-server-beta)
 
- ![login](https://res.cloudinary.com/keochanhnhungkchua/image/upload/v1624501575/l4zckzklzm7cycctsqry.jpg)  
- ![liteFriend](https://res.cloudinary.com/keochanhnhungkchua/image/upload/v1624501588/spzyvtg0d0g57a7jsmng.jpg)
- ![profile](https://res.cloudinary.com/keochanhnhungkchua/image/upload/v1624501601/mwuusdq4t3mtd5frbnps.jpg)
+1. ![login](https://res.cloudinary.com/keochanhnhungkchua/image/upload/v1624501575/l4zckzklzm7cycctsqry.jpg)  
+2. ![liteFriend](https://res.cloudinary.com/keochanhnhungkchua/image/upload/v1624501588/spzyvtg0d0g57a7jsmng.jpg)
+3. ![profile](https://res.cloudinary.com/keochanhnhungkchua/image/upload/v1624501601/mwuusdq4t3mtd5frbnps.jpg)
